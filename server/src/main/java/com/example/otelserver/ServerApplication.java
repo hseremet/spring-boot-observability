@@ -1,13 +1,14 @@
-package com.example.otelclient;
+package com.example.otelserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OtelclientApplication {
+public class ServerApplication {
+
 
 	public static void main(String[] args) {
-		SpringApplication.run(OtelclientApplication.class, args);
+		SpringApplication.run(ServerApplication.class, args);
 	}
 
 }
