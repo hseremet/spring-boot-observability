@@ -5,7 +5,7 @@ Spring Boot project example to see OpenTelemetry integration works under the hoo
 
 
 Run loki,tempo,grafana,prometheus
->docker-compose up
+>docker-compose up -d
     To access Prometheus go to http://localhost:9090/
     
     To access Grafana go to http://localhost:3000/
